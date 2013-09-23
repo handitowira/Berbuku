@@ -1,0 +1,42 @@
+/* 
+    Document   : front
+    Created on : May 26, 2013, 9:04:36 PM
+    Author     : HANDITO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.bb{
+    -webkit-box-shadow: inset 8px 8px 6px -6px grey;
+    box-shadow: inset 8px 8px 6px -6px grey;
+    -moz-box-shadow: inset 8px 8px 6px -6px grey;
+    width: auto;
+    height: 500px;
+    background-color: whitesmoke;
+    border: 10px solid #5776B6;
+    margin-top: 20px;
+    padding:10px;
+}
+.bbb{
+    -webkit-box-shadow: 8px 8px 6px -6px grey;
+    box-shadow: 8px 8px 6px -6px grey;
+    -moz-box-shadow: 8px 8px 6px -6px grey;
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin: 25px;
+}
+.bbb:hover{
+    -webkit-box-shadow: 8px 8px 6px -6px #5776B6;
+    box-shadow: 8px 8px 6px -6px #5776B6;
+    -moz-box-shadow: 8px 8px 6px -6px #5776B6;
+    -webkit-transform: rotate(10deg) scale(1.1);
+    -moz-transform: rotate(10deg) scale(1.1);
+    -o-transform: rotate(10deg) scale(1.1);
+    -ms-transform: rotate(10deg) scale(1.1); 
+    transform: rotate(10deg) scale(1.1);
+}

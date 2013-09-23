@@ -1,0 +1,68 @@
+.liquid {
+    background:#DFE4E8 url('../images/liquid/bodybackground.png') repeat-y scroll 50% 0;
+    border:10px solid #5776B6;
+    -webkit-box-shadow: inset 8px 8px 6px -6px black;
+    box-shadow: inset 8px 8px 6px -6px black;
+    -moz-box-shadow: inset 8px 8px 6px -6px black;
+    padding:10px;
+}
+.liquid .previous {
+    display:block;
+    height:126px;
+    width:64px;
+    background-image:url('../images/liquid/previous.png');
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.liquid .previous:hover {
+    display:block;
+    height:126px;
+    width:64px;
+    background-image:url('../images/liquid/previoush.png');
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.liquid .next {
+    display:block;
+    height:126px;
+    width:64px;
+    background-image:url('../images/liquid/next.png');
+    float:right;
+    margin:0;
+    padding:0;
+}
+.liquid .next:hover {
+    display:block;
+    height:126px;
+    width:64px;
+    background-image:url('../images/liquid/nexth.png');
+    float:right;
+    margin:0;
+    padding:0;
+}
+
+.liquid ul li {
+    width:126px;
+    padding:0 2px;
+    margin:0;
+}
+.liquid ul li a img {
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 3px 3px 3px #222;
+    box-shadow: 3px 3px 3px #222;
+    -moz-box-shadow: 3px 3px 3px #222;
+}
+.liquid ul li a img:hover {
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 3px 3px 3px red;
+    box-shadow: 3px 3px 3px red;
+    -moz-box-shadow: 3px 3px 3px red;
+}
